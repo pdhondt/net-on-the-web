@@ -39,3 +39,5 @@
 /home/peter/Documents/Projects/dotnet/net-on-the-web/obj/Debug/net5.0/net-on-the-web.genruntimeconfig.cache
 /home/peter/Documents/Projects/dotnet/net-on-the-web/obj/Debug/net5.0/net-on-the-web.csproj.CopyComplete
 /home/peter/Documents/Projects/dotnet/net-on-the-web/obj/Debug/net5.0/Razor/Pages/HelloWeb.cshtml.g.cs
+/home/peter/Documents/Projects/dotnet/net-on-the-web/obj/Debug/net5.0/Razor/Pages/Classes.cshtml.g.cs
+/home/peter/Documents/Projects/dotnet/net-on-the-web/obj/Debug/net5.0/Razor/Pages/Teachers.cshtml.g.cs

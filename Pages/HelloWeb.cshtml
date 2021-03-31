@@ -2,6 +2,28 @@
 @model net_on_the_web.Pages.HelloWebModel
 @{
 }
-<p>@Model.Peter.Id</p>
-<p>@Model.Peter.Name</p>
-<p>@Model.Peter.ClassId</p>
+
+<table>
+    <tr>
+        <thead>Student Id</thead>
+        <thead>Student Name</thead>
+        <thead>Student ClassId</thead>
+    </tr>
+    <tr>
+        <td>@Model.Peter.Id</td>
+        <td>@Model.Peter.Name</td>
+        <td>@Model.Peter.ClassId</td>
+    </tr>
+    <tr>
+        <td>@Model.Thomas.Id</td>
+        <td>@Model.Thomas.Name</td>
+        <td>@Model.Thomas.ClassId</td>
+    </tr>
+    <tr>
+        <td>@Model.Micha.Id</td>
+        <td>@Model.Micha.Name</td>
+        <td>@Model.Micha.ClassId</td>
+    </tr>
+</table>
+
+

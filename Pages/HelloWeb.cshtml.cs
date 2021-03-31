@@ -12,12 +12,22 @@ namespace net_on_the_web.Pages
     {
 
         public Student Peter = new Student();
-        
+        public Student Thomas = new Student();
+        public Student Micha = new Student();
+
         public void OnGet()
         {
             Peter.Id = 1;
-            Peter.Name = "D'hondt";
+            Peter.Name = "Peter D'hondt";
             Peter.ClassId = 4;
+
+            Thomas.Id = 2;
+            Thomas.Name = "Thomas Pieters";
+            Thomas.ClassId = 4;
+
+            Micha.Id = 3;
+            Micha.Name = "Micha Harin";
+            Micha.ClassId = 4;
         }
     }
 }
