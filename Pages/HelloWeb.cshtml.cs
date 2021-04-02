@@ -10,24 +10,13 @@ namespace net_on_the_web.Pages
 {
     public class HelloWebModel : PageModel
     {
-
-        public Student Peter = new Student();
-        public Student Thomas = new Student();
-        public Student Micha = new Student();
+        public Student[] studentArray = new Student[3];
 
         public void OnGet()
         {
-            Peter.Id = 1;
-            Peter.Name = "Peter D'hondt";
-            Peter.ClassId = 4;
-
-            Thomas.Id = 2;
-            Thomas.Name = "Thomas Pieters";
-            Thomas.ClassId = 4;
-
-            Micha.Id = 3;
-            Micha.Name = "Micha Harin";
-            Micha.ClassId = 4;
+            studentArray[0] = new Student(1, "Peter D'hondt", 4);
+            studentArray[1] = new Student(2, "Thomas Pieters", 4);
+            studentArray[2] = new Student(3, "Micha Harin", 4);
         }
     }
 }
